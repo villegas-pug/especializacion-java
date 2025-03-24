@@ -1,0 +1,24 @@
+{
+   "configurations": [
+      {
+         "type": "java",
+         "name": "Spring Boot-EntitiesApplication<entities>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "microservice.entities.EntitiesApplication",
+         "projectName": "entities",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-AppTerminalApplication<app-terminal>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "microservicio.app_terminal.AppTerminalApplication",
+         "projectName": "app-terminal",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
+      }
+   ]
+}

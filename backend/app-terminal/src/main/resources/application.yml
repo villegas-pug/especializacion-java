@@ -1,0 +1,21 @@
+server:
+  port: 4002
+
+spring:
+  application:
+    name: app-terminal
+  profiles:
+    active:
+    - dev
+  
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=bdescuelaconductores;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: Cd1526a2a8
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
