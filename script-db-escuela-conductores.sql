@@ -2,7 +2,8 @@
 
 -- 1. Crea `db`: bdescuelaconductores
 IF NOT EXISTS(SELECT 1 FROM SYS.databases d WHERE d.name = 'bdescuelaconductores')
-   CREATE DATABASE bdescuelaconductores
+   CREATE DATABASE BD_SIRIM.dbo.bdescuelaconductores
+
 
 USE bdescuelaconductores
 
@@ -13,6 +14,9 @@ DROP TABLE Provincia
 DROP TABLE Distrito
 */
 
+SELECT * FROM BD_SIRIM.dbo.Departamento
+SELECT * FROM BD_SIRIM.dbo.Estudiantes
+SELECT * FROM BD_SIRIM.dbo.Matriculas
 -- 3. ...
 
 CREATE OR ALTER PROCEDURE usp_insertarDepartamento

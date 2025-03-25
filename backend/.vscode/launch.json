@@ -19,6 +19,16 @@
          "projectName": "app-terminal",
          "args": "",
          "envFile": "${workspaceFolder}/.env"
+      },
+      {
+         "type": "java",
+         "name": "Spring Boot-ApiRestApplication<api-rest>",
+         "request": "launch",
+         "cwd": "${workspaceFolder}",
+         "mainClass": "microservicio.api_rest.ApiRestApplication",
+         "projectName": "api-rest",
+         "args": "",
+         "envFile": "${workspaceFolder}/.env"
       }
    ]
 }
